@@ -12,5 +12,5 @@ if (process.versions.node.split(".")[0] === 10) {
     )
     .pipe(new Speaker());
 } else {
-  console.log("O script só roda na V10");
+  console.log("O script só roda na V10", JSON.stringify(process.versions));
 }
