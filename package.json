@@ -1,6 +1,6 @@
 {
   "name": "quintou",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "quintou.js",
   "license": "MIT",
   "dependencies": {
