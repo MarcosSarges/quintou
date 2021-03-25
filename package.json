@@ -7,6 +7,9 @@
     "lame": "^1.2.4",
     "speaker": "^0.5.3"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "description": "Quintou porra",
   "devDependencies": {},
   "scripts": {
