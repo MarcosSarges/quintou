@@ -1,9 +1,11 @@
-const fs = require("fs");
-const lame = require("lame");
+#!/usr/bin/env node
+"use_strict";
+const { createReadStream } = require("fs");
+const { Decoder } = require("lame");
 const Speaker = require("speaker");
 
-fs.createReadStream("./quintou.mp3")
-  .pipe(new lame.Decoder())
+createReadStream("./quintou.mp3")
+  .pipe(new Decoder())
   .on("format", () =>
     console.log("QUINTOU PORRRAAAAAAA!!!!!!!!!!!!!!!!: github/MarcosSarges")
   )
