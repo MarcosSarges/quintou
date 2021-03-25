@@ -1,7 +1,7 @@
 {
   "name": "quintou",
-  "version": "1.0.2",
-  "main": "index.js",
+  "version": "1.0.3",
+  "main": "quintou.js",
   "license": "MIT",
   "dependencies": {
     "lame": "^1.2.4",
@@ -13,7 +13,10 @@
   "description": "Quintou porra",
   "devDependencies": {},
   "scripts": {
-    "test": "node index.js"
+    "test": "node quintou.js"
+  },
+  "bin": {
+    "quintou": "./quintou.js"
   },
   "repository": {
     "type": "git",
